@@ -1,0 +1,157 @@
+EXAMPLE RUN - 2
+---------------
+This run demonstrates the following,
+    1. A wrapping dungeon,
+    2. Shows the player navigating through the dungeon,
+    3. Shows the player picking up treasure,
+    4. Shows the player picking up arrows,
+    5. Shows the player killing an Otyugh, and
+    6. Shows the player winning the game by reaching the end.
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+width = 7
+height = 5
+wrapping = true
+interconnectivity = 8
+treasure percentage = 25
+number of otyughs = 4
+
+
+Current location: [0, 2]. This is a Cave.
+There is no treasure here. There are 5 arrows here.
+Current bag: {}
+Current Arrow Count: 3
+More pungent Smell. Otyugh in very close proximity.
+You can go WEST, NORTH, SOUTH, EAST from here.
+
+What action you want to choose? Move(M), Shoot an arrow(S), Pick items(P) - p
+Do you want to pick up treasure?[1/0] 0
+Do you want to pick up arrows?[1/0] 1
+
+Current location: [0, 2]. This is a Cave.
+There is no treasure here. There are no arrows here.
+Current bag: {}
+Current Arrow Count: 8
+More pungent Smell. Otyugh in very close proximity.
+You can go WEST, NORTH, SOUTH, EAST from here.
+
+What action you want to choose? Move(M), Shoot an arrow(S), Pick items(P) - m
+Which direction? south
+
+Current location: [1, 2]. This is a Cave.
+There is no treasure here. There are no arrows here.
+Current bag: {}
+Current Arrow Count: 8
+Less pungent smell. Otyugh in close proximity.
+You can go SOUTH, EAST, NORTH from here.
+
+What action you want to choose? Move(M), Shoot an arrow(S), Pick items(P) - m
+Which direction? south
+
+Current location: [2, 2]. This is a Cave.
+There is treasure here. There are 5 arrows here.
+Current bag: {}
+Current Arrow Count: 8
+Less pungent smell. Otyugh in close proximity.
+You can go SOUTH, WEST, EAST, NORTH from here.
+
+What action you want to choose? Move(M), Shoot an arrow(S), Pick items(P) - p
+Do you want to pick up treasure?[1/0] 1
+Do you want to pick up arrows?[1/0] 1
+
+Current location: [2, 2]. This is a Cave.
+There is no treasure here. There are no arrows here.
+Current bag: {DIAMONDS=2, RUBIES=3, SAPPHIRE=1}
+Current Arrow Count: 13
+Less pungent smell. Otyugh in close proximity.
+You can go SOUTH, WEST, EAST, NORTH from here.
+
+What action you want to choose? Move(M), Shoot an arrow(S), Pick items(P) - m
+Which direction? south
+
+Current location: [3, 2]. This is a Tunnel.
+There is no treasure here. There are 5 arrows here.
+Current bag: {DIAMONDS=2, RUBIES=3, SAPPHIRE=1}
+Current Arrow Count: 13
+More pungent Smell. Otyugh in very close proximity.
+You can go NORTH, SOUTH from here.
+
+What action you want to choose? Move(M), Shoot an arrow(S), Pick items(P) - s
+Which direction? south
+How far do you want the shoot the arrow? 1
+
+Current location: [3, 2]. This is a Tunnel.
+There is no treasure here. There are 5 arrows here.
+Current bag: {DIAMONDS=2, RUBIES=3, SAPPHIRE=1}
+Current Arrow Count: 12
+More pungent Smell. Otyugh in very close proximity.
+You can go NORTH, SOUTH from here.
+
+What action you want to choose? Move(M), Shoot an arrow(S), Pick items(P) - s
+Which direction? south
+How far do you want the shoot the arrow? 1
+
+Current location: [3, 2]. This is a Tunnel.
+There is no treasure here. There are 5 arrows here.
+Current bag: {DIAMONDS=2, RUBIES=3, SAPPHIRE=1}
+Current Arrow Count: 11
+No smell. Nearby Otyugh dead.
+You can go NORTH, SOUTH from here.
+
+What action you want to choose? Move(M), Shoot an arrow(S), Pick items(P) - m
+Which direction? south
+
+Current location: [4, 2]. This is a Cave.
+There is no treasure here. There are 10 arrows here.
+Current bag: {DIAMONDS=2, RUBIES=3, SAPPHIRE=1}
+Current Arrow Count: 11
+Otyugh in this cave is dead. No smell. No Otyugh nearby.
+You can go NORTH, EAST, SOUTH from here.
+
+What action you want to choose? Move(M), Shoot an arrow(S), Pick items(P) - m
+Which direction? east
+
+Current location: [4, 3]. This is a Cave.
+There is no treasure here. There are no arrows here.
+Current bag: {DIAMONDS=2, RUBIES=3, SAPPHIRE=1}
+Current Arrow Count: 11
+No smell. Nearby Otyugh dead.
+You can go WEST, EAST, SOUTH from here.
+
+What action you want to choose? Move(M), Shoot an arrow(S), Pick items(P) - m
+Which direction? east
+
+Current location: [4, 4]. This is a Cave.
+There is treasure here. There are no arrows here.
+Current bag: {DIAMONDS=2, RUBIES=3, SAPPHIRE=1}
+Current Arrow Count: 11
+More pungent Smell. Otyugh in very close proximity.
+You can go WEST, EAST, SOUTH from here.
+
+What action you want to choose? Move(M), Shoot an arrow(S), Pick items(P) - s
+Which direction? east
+How far do you want the shoot the arrow? 1
+
+Current location: [4, 4]. This is a Cave.
+There is treasure here. There are no arrows here.
+Current bag: {DIAMONDS=2, RUBIES=3, SAPPHIRE=1}
+Current Arrow Count: 10
+More pungent Smell. Otyugh in very close proximity.
+You can go WEST, EAST, SOUTH from here.
+
+What action you want to choose? Move(M), Shoot an arrow(S), Pick items(P) - s
+Which direction? east
+How far do you want the shoot the arrow? 1
+
+Current location: [4, 4]. This is a Cave.
+There is treasure here. There are no arrows here.
+Current bag: {DIAMONDS=2, RUBIES=3, SAPPHIRE=1}
+Current Arrow Count: 9
+No smell. Nearby Otyugh dead.
+You can go WEST, EAST, SOUTH from here.
+
+What action you want to choose? Move(M), Shoot an arrow(S), Pick items(P) - m
+Which direction? east
+
+
+End location reached. Game is over!

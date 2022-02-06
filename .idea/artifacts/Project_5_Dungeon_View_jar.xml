@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Project-5-Dungeon-View:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Project_5_Dungeon_View_jar</output-path>
+    <root id="archive" name="Project-5-Dungeon-View.jar">
+      <element id="module-output" name="Project-5-Dungeon-View" />
+    </root>
+  </artifact>
+</component>

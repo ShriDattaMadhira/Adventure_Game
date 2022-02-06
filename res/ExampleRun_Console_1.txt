@@ -1,0 +1,56 @@
+EXAMPLE RUN - 1
+---------------
+This run demonstrates the following,
+    1. A non-wrapping dungeon,
+    2. Shows the player navigating through the dungeon,
+    3. Shows the player picking up arrows, and
+    4. Shows the player being eaten by a Otyugh.
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+width = 6
+height = 6
+wrapping = false
+interconnectivity = 4
+treasure percentage = 21
+number of otyughs = 5
+
+
+You are in a Cave. There is no treasure here. There are 5 arrows here.
+Current bag: {}
+Current Arrow Count: 3
+More pungent Smell. Otyugh in very close proximity.
+You can go WEST, SOUTH, EAST from here.
+
+What action you want to choose? Move(M), Shoot an arrow(S), Pick items(P) - p
+Do you want to pick up treasure?[1/0] 0
+Do you want to pick up arrows?[1/0] 1
+
+You are in a Cave. There is no treasure here. There are no arrows here.
+Current bag: {}
+Current Arrow Count: 8
+More pungent Smell. Otyugh in very close proximity.
+You can go WEST, SOUTH, EAST from here.
+
+What action you want to choose? Move(M), Shoot an arrow(S), Pick items(P) - m
+Which direction? west
+
+You are in a Cave. There is no treasure here. There are no arrows here.
+Current bag: {}
+Current Arrow Count: 8
+No smell. No Otyugh nearby.
+You can go WEST, SOUTH, EAST from here.
+
+What action you want to choose? Move(M), Shoot an arrow(S), Pick items(P) - m
+Which direction? south
+
+You are in a Tunnel. There is no treasure here. There are no arrows here.
+Current bag: {}
+Current Arrow Count: 8
+More pungent Smell. Otyugh in very close proximity.
+You can go NORTH, EAST from here.
+
+What action you want to choose? Move(M), Shoot an arrow(S), Pick items(P) - m
+Which direction? east
+
+
+Eaten by Otyugh. Game is over!
